@@ -1,0 +1,28 @@
+html {
+    background-color: rgb(157, 125, 188);
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: "Courier New", Garamond, serif;
+}
+
+h1, h2, h3, p, ul, ol {
+    background-color: white;
+}
+
+img {   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px ridge white;
+    height: auto;
+    width: 500px;
+}
+
+p, ul, ol {
+    font-family: "Times New Roman", Garamond, serif;
+}
