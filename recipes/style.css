@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(157, 125, 188);
+    background-color: #9d7dbc;
 }
 
 h1 {
@@ -10,19 +10,35 @@ h1, h2, h3 {
     font-family: "Courier New", Garamond, serif;
 }
 
-h1, h2, h3, p, ul, ol {
+h1 {
     background-color: white;
+    padding: 3px;
+    border: 5px dashed #9d7dbc;
 }
 
 img {   
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 5px ridge white;
+    margin-bottom: 30px;
+    border: 5px double white;
     height: auto;
     width: 500px;
 }
 
-p, ul, ol {
+.index-links {
+    background-color: white;
+}
+
+.recipe-body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    border: 5px dashed #9d7dbc;
+}
+
+.ingredients-block,
+.steps-block {
     font-family: "Times New Roman", Garamond, serif;
 }
